@@ -25,7 +25,7 @@ const bands = ['The Plot in You', 'The Devil Wears Prada', 'Pierce the Veil', 'N
                 let li=document.createElement("li");
                 let hr=document.createElement("hr");
                 li.textContent=k;
-                document.getElementById("ul").append(li,hr);
+                document.getElementById("bands").append(li,hr);
             }
         }
        } 
